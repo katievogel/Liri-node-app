@@ -4,9 +4,12 @@ var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
 var axios = require("axios");
 var moment = require('moment');
+var fs = require("fs");
 
+var spotSong = process.argv[3];
+function spotifyThis () {
 if (process.argv[2] === "spotify-this-song") {
-spotify.search({ type: 'track', query: process.argv[3] }, function(err, data) {
+spotify.search({ type: 'track', query: spotSong }, function(err, data) {
     if (err) {
       return console.log('Error occurred: ' + err);
     } 
@@ -14,12 +17,12 @@ spotify.search({ type: 'track', query: process.argv[3] }, function(err, data) {
     console.log("Artist: " + firstItem.artists[0].name);
     console.log("Song Name: " + firstItem.name); 
     console.log("Listen to the song: " + firstItem.external_urls.spotify);
-    console.log("Album Title: " + firstItem.album.name);
-    
+    console.log("Album Title: " + firstItem.album.name); 
   })
-};
-var movieName = process.argv[3];
+}};
+spotifyThis();
 
+var movieName = process.argv[3];
 if (process.argv[2] === "movie-this") {
 axios
   .get("http://www.omdbapi.com/?t=" + movieName + "&apikey=3eb0741a")
@@ -59,7 +62,6 @@ if (process.argv[2] === "concert-this")
         var concertDate = moment(response.data[i].datetime).format("MM/DD/YYYY");
         console.log(concertDate);
     }
-    
   })
   .catch(function(error) {
     if (error.response) {
@@ -73,3 +75,21 @@ if (process.argv[2] === "concert-this")
     }
     console.log(error.config);
   });
+
+
+  if (process.argv[2] === "do-what-it-says") {
+  fs.readFile("random.txt", "utf8", function(err, data) {
+    if (err) {
+      return console.log(err);
+    }
+    var output = data.split(",");
+    for (var i = 0; i < output.length; i++) {
+        if (output[0] === "spotify-this-song") {
+            spotSong = output[1];
+            spotifyThis();
+            console.log(spotSong);
+        }
+      ;
+    }
+  })
+};

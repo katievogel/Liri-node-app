@@ -1,6 +1,8 @@
 require("dotenv").config();
+var Spotify = require("node-spotify-api");
 var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
+var axios = require("axios");
 
 axios
   .get("http://www.omdbapi.com/?i=tt3896198&apikey=3eb0741a")

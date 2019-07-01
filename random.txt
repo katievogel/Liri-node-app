@@ -1,3 +1,1 @@
-spotify-this-song,"I Want it That Way",
-concert-this,"Billy Joel",
-movie-this,"The Avengers",
+spotify-this-song,I Want it That Way

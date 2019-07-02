@@ -125,7 +125,7 @@ function movieThis(movieName) {
             console.log(error.config);
         })
 }};
-
+var blank = '';
 function concertThis(artist) {
     var url = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
     axios
@@ -135,10 +135,14 @@ function concertThis(artist) {
             console.log(url);
             console.log(response.data.length)
             for (var i = 0; i < response.data.length; ++i) {
-                console.log(response.data[i].venue.name);
-                console.log(response.data[i].venue.city + ", " + response.data[i].venue.region + ", " + response.data[i].venue.country);
+                console.log("Concert, Festival, or Venue Name: " + response.data[i].venue.name);
+                if (response.data[i].venue.region === blank){
+                    console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
+                } else {
+                console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region + ", " + response.data[i].venue.country);
+            }
                 var concertDate = moment(response.data[i].datetime).format("MM/DD/YYYY");
-                console.log(concertDate);
+                console.log("Event Date: " + concertDate);
                 console.log("--------------");
             }
         })

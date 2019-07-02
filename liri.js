@@ -8,15 +8,34 @@ var fs = require("fs");
 
 var spotSong = process.argv[3];
 function spotifyThis(spotSong) {
+    if (spotSong === undefined) {
+        console.log("--------------");
+        console.log("Remember to enter a song, or you will only get to listen to Ace of Base... FOREVER!")
+        spotify.search({ type: "track", query: "The Sign Ace Of Base" }, function (err, data) {
+            if (err) {
+                console.log("-------Oh Noes! Errors!-------")
+                return console.log('Error occurred: ' + err);
+            }
+            var firstItem = data.tracks.items[0];
+            console.log("Artist: " + firstItem.artists[0].name);
+            console.log("Song Name: " + firstItem.name);
+            console.log("Listen to the song: " + firstItem.external_urls.spotify);
+            console.log("Album Title: " + firstItem.album.name);
+            console.log("--------------");
+        })
+    } else  
     spotify.search({ type: 'track', query: spotSong }, function (err, data) {
         if (err) {
+            console.log("-------Oh Noes! Errors!-------")
             return console.log('Error occurred: ' + err);
         }
         var firstItem = data.tracks.items[0];
+        console.log("--------------");
         console.log("Artist: " + firstItem.artists[0].name);
         console.log("Song Name: " + firstItem.name);
         console.log("Listen to the song: " + firstItem.external_urls.spotify);
         console.log("Album Title: " + firstItem.album.name);
+        console.log("--------------");
     })
 };
 
@@ -41,9 +60,13 @@ dispatch(command, argument);
 
 
 function movieThis(movieName) {
-    axios
-        .get("http://www.omdbapi.com/?t=" + movieName + "&apikey=3eb0741a")
+    if (movieName === undefined) {
+        console.log("--------------");
+        console.log("It seems you have forgotten to enter a movie title. Perhaps you should check out 'Mr. Nobody.' It's currently on Netflix.")
+        axios
+        .get("http://www.omdbapi.com/?t=Mr+Nobody&apikey=3eb0741a")
         .then(function (response) {
+            console.log("--------------");
             console.log("Movie Title: " + response.data.Title);
             console.log("Release Year: " + response.data.Year);
             console.log("IMDB Rating: " + response.data.imdbRating);
@@ -52,26 +75,63 @@ function movieThis(movieName) {
             console.log("Language(s): " + response.data.Language);
             console.log("Plot Summary: " + response.data.Plot);
             console.log("Leading Cast: " + response.data.Actors);
+            console.log("--------------");
         })
         .catch(function (error) {
             if (error.response) {
+                console.log("-------Oh Noes! Errors!-------")
                 console.log(error.response.data);
                 console.log(error.response.status);
                 console.log(error.response.headers);
             } else if (error.request) {
+                console.log("-------Oh Noes! Errors!-------")
                 console.log(error.request);
             } else {
+                console.log("-------Oh Noes! Errors!-------")
                 console.log("Error", error.message);
             }
+            console.log("-------Oh Noes! Errors!-------")
             console.log(error.config);
         })
-};
+    } else {
+    axios
+        .get("http://www.omdbapi.com/?t=" + movieName + "&apikey=3eb0741a")
+        .then(function (response) {
+            console.log("--------------");
+            console.log("Movie Title: " + response.data.Title);
+            console.log("Release Year: " + response.data.Year);
+            console.log("IMDB Rating: " + response.data.imdbRating);
+            console.log("Rotten Tomatoes: " + response.data.Ratings[1].Value);
+            console.log("Production Country: " + response.data.Country);
+            console.log("Language(s): " + response.data.Language);
+            console.log("Plot Summary: " + response.data.Plot);
+            console.log("Leading Cast: " + response.data.Actors);
+            console.log("--------------");
+        })
+        .catch(function (error) {
+            if (error.response) {
+                console.log("-------Oh Noes! Errors!-------")
+                console.log(error.response.data);
+                console.log(error.response.status);
+                console.log(error.response.headers);
+            } else if (error.request) {
+                console.log("-------Oh Noes! Errors!-------")
+                console.log(error.request);
+            } else {
+                console.log("-------Oh Noes! Errors!-------")
+                console.log("Error", error.message);
+            }
+            console.log("-------Oh Noes! Errors!-------")
+            console.log(error.config);
+        })
+}};
 
 function concertThis(artist) {
     var url = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
     axios
         .get(url)
         .then(function (response) {
+            console.log("--------------");
             console.log(url);
             console.log(response.data.length)
             for (var i = 0; i < response.data.length; ++i) {
@@ -79,18 +139,23 @@ function concertThis(artist) {
                 console.log(response.data[i].venue.city + ", " + response.data[i].venue.region + ", " + response.data[i].venue.country);
                 var concertDate = moment(response.data[i].datetime).format("MM/DD/YYYY");
                 console.log(concertDate);
+                console.log("--------------");
             }
         })
         .catch(function (error) {
             if (error.response) {
+                console.log("-------Oh Noes! Errors!-------");
                 console.log(error.response.data);
                 console.log(error.response.status);
                 console.log(error.response.headers);
             } else if (error.request) {
+                console.log("-------Oh Noes! Errors!-------")
                 console.log(error.request);
             } else {
+                console.log("-------Oh Noes! Errors!-------")
                 console.log("Error", error.message);
             }
+            console.log("-------Oh Noes! Errors!-------")
             console.log(error.config);
         });
 }

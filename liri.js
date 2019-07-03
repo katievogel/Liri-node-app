@@ -1,3 +1,4 @@
+//Anything that has a 'require' needed for the node packages
 require("dotenv").config();
 var Spotify = require("node-spotify-api");
 var keys = require("./keys.js");
@@ -6,6 +7,13 @@ var axios = require("axios");
 var moment = require('moment');
 var fs = require("fs");
 
+//The logAndText function combines the console.log method and fs.appendFileSync to accomplish logging items to the console and to the log.txt file. fs.appendFile will dump everything into the log.txt file out of order (or whatever order each part finishes, asynchonously). fs.appendFileSync will enter items in the log.txt file in order you have set them to populate (or runs synchronously).
+function logAndText(msg) {
+    console.log(msg);
+    fs.appendFileSync("log.txt", msg+'\n');
+}
+
+//The spotify-this-song API call section
 var spotSong = process.argv[3];
 function spotifyThis(spotSong) {
     if (spotSong === undefined) {
@@ -39,31 +47,7 @@ function spotifyThis(spotSong) {
     })
 };
 
-
-
-
-function dispatch(command, argument) {
-    if (command === "spotify-this-song") {
-        spotifyThis(argument)
-    } else if (command === "concert-this") {
-        concertThis(argument)
-    } else if (command === "movie-this") {
-        movieThis(argument)
-    } else if (command === "do-what-it-says") {
-        doWhatItSays(argument)
-    }
-}
-
-var command = process.argv[2];
-var argument = process.argv[3];
-
-dispatch(command, argument);
-
-function logAndText(msg) {
-    console.log(msg);
-    fs.appendFileSync("log.txt", msg+'\n');
-}
-
+//The movie-this API call section
 function movieThis(movieName) {
     if (movieName === undefined) {
         logAndText("--------------");
@@ -130,6 +114,8 @@ function movieThis(movieName) {
             logAndText(error.config);
         })
 }};
+
+//The concert-this API call section. It should be noted that the venue name is frequently a concert or festival name instead of a facility or building, etc.
 var blank = '';
 function concertThis(artist) {
     var url = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
@@ -169,6 +155,25 @@ function concertThis(artist) {
         });
 }
 
+//The dispatch function was created to easily carry the spotify-this-son, movie-this, and concert-this functions through to the do-what-it-says function without re-wrtiting large chunks of code over again
+function dispatch(command, argument) {
+    if (command === "spotify-this-song") {
+        spotifyThis(argument)
+    } else if (command === "concert-this") {
+        concertThis(argument)
+    } else if (command === "movie-this") {
+        movieThis(argument)
+    } else if (command === "do-what-it-says") {
+        doWhatItSays(argument)
+    }
+}
+
+var command = process.argv[2];
+var argument = process.argv[3];
+
+dispatch(command, argument);
+
+//The do-what-it-says function. This will run the above functions based on what one enters in the random.txt file. Please note that passing arguments in this manner may not work with quotations around them, and may have to be entered without quotes.
 function doWhatItSays(argument) {
     fs.readFile("random.txt", "utf8", function (err, data) {
         if (err) {

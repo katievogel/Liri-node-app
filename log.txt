@@ -1,0 +1,284 @@
+--------------
+Artist: ABBA
+Song Name: Dancing Queen
+Listen to the song: https://open.spotify.com/track/4NtUY5IGzHCaqfZemmAu56
+Album Title: Arrival
+--------------
+--------------
+Movie Title: Jurassic Park
+Release Year: 1993
+IMDB Rating: 8.1
+Rotten Tomatoes: 91%
+Production Country: USA
+Language(s): English, Spanish
+Plot Summary: During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.
+Leading Cast: Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough
+--------------
+--------------
+https://rest.bandsintown.com/artists/Bastille/events?app_id=codingbootcamp
+60
+Concert, Festival, or Venue Name: Cruilla Barcelona
+Location: Barcelona, Spain
+Event Date: 07/05/2019
+--------------
+Concert, Festival, or Venue Name: Stavernfestivalen
+Location: Stavern, Norway
+Event Date: 07/11/2019
+--------------
+Concert, Festival, or Venue Name: TRNSMT Festival
+Location: Glasgow, United Kingdom
+Event Date: 07/13/2019
+--------------
+Concert, Festival, or Venue Name: Citadel Festival
+Location: London, United Kingdom
+Event Date: 07/14/2019
+--------------
+Concert, Festival, or Venue Name: Malakoff Rockfestival
+Location: Nordfjordeid, Norway
+Event Date: 07/19/2019
+--------------
+Concert, Festival, or Venue Name: Weekend Helsinki
+Location: Hki, Finland
+Event Date: 07/20/2019
+--------------
+Concert, Festival, or Venue Name: Low Festival
+Location: Benidorm, Spain
+Event Date: 07/26/2019
+--------------
+Concert, Festival, or Venue Name: Indiependence Festival
+Location: Cork, Ireland
+Event Date: 08/02/2019
+--------------
+Concert, Festival, or Venue Name: Untold Festival Arena
+Location: Cluj-napoca, Romania
+Event Date: 08/04/2019
+--------------
+Concert, Festival, or Venue Name: Stars in Town AG
+Location: Schaffhausen, Switzerland
+Event Date: 08/07/2019
+--------------
+Concert, Festival, or Venue Name: Heitere Open Air
+Location: Zofingen, Switzerland
+Event Date: 08/10/2019
+--------------
+Concert, Festival, or Venue Name: Gröna Lund
+Location: Stockholm, Sweden
+Event Date: 08/19/2019
+--------------
+Concert, Festival, or Venue Name: Strand Festival
+Location: Zamardi, Hungary
+Event Date: 08/21/2019
+--------------
+Concert, Festival, or Venue Name: Leeds Festival
+Location: Leeds, United Kingdom
+Event Date: 08/23/2019
+--------------
+Concert, Festival, or Venue Name: Reading Festival
+Location: Reading, United Kingdom
+Event Date: 08/25/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Philadelphia, PA, United States
+Event Date: 09/16/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Boston, MA, United States
+Event Date: 09/17/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Laval, Canada
+Event Date: 09/18/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Toronto, Canada
+Event Date: 09/20/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Washington, DC, United States
+Event Date: 09/21/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Pittsburgh, PA, United States
+Event Date: 09/22/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: New York, NY, United States
+Event Date: 09/24/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Uncasville, CT, United States
+Event Date: 09/27/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Richmond, VA, United States
+Event Date: 09/28/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Columbus, OH, United States
+Event Date: 09/29/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Detroit, MI, United States
+Event Date: 10/01/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Chicago, IL, United States
+Event Date: 10/02/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Denver, CO, United States
+Event Date: 10/04/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Magna, UT, United States
+Event Date: 10/05/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Portland, OR, United States
+Event Date: 10/07/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Vancouver, Canada
+Event Date: 10/08/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Seattle, WA, United States
+Event Date: 10/09/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Berkeley, CA, United States
+Event Date: 10/11/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Los Angeles, CA, United States
+Event Date: 10/12/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: San Diego, CA, United States
+Event Date: 10/13/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Phoenix, AZ, United States
+Event Date: 10/15/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Dallas, TX, United States
+Event Date: 10/17/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Houston, TX, United States
+Event Date: 10/18/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Austin, TX, United States
+Event Date: 10/19/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Birmingham, AL, United States
+Event Date: 10/21/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Nashville, TN, United States
+Event Date: 10/22/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Atlanta, GA, United States
+Event Date: 10/23/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Raleigh, NC, United States
+Event Date: 10/25/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Jacksonville, FL, United States
+Event Date: 10/26/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Miami, FL, United States
+Event Date: 10/27/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS TOUR. PART 1
+Location: Mexico City, Mexico
+Event Date: 10/29/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Coventry, United Kingdom
+Event Date: 11/29/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Carlisle, United Kingdom
+Event Date: 11/30/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Aberdeen, United Kingdom
+Event Date: 12/01/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Bradford, United Kingdom
+Event Date: 12/03/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Grimsby, United Kingdom
+Event Date: 12/04/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Llandudno, United Kingdom
+Event Date: 12/05/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Torquay, United Kingdom
+Event Date: 12/07/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB TOUR
+Location: Portsmouth, United Kingdom
+Event Date: 12/08/2019
+--------------
+Concert, Festival, or Venue Name: DOOM DAYS CLUB NIGHTS
+Location: Margate, United Kingdom
+Event Date: 12/09/2019
+--------------
+Concert, Festival, or Venue Name: Doom Days Tour Part 2
+Location: Auckland, New Zealand
+Event Date: 01/23/2020
+--------------
+Concert, Festival, or Venue Name: Doom Days Tour Part 2
+Location: Sydney, Australia
+Event Date: 01/27/2020
+--------------
+Concert, Festival, or Venue Name: Doom Days Tour Part 2
+Location: Melbourne, Australia
+Event Date: 01/30/2020
+--------------
+Concert, Festival, or Venue Name: Doom Days Tour Part 2
+Location: Adelaide, Australia
+Event Date: 02/02/2020
+--------------
+Concert, Festival, or Venue Name: Doom Days Tour Part 2
+Location: Perth, Australia
+Event Date: 02/04/2020
+--------------
+--------------
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Listen to the song: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+Album Title: The Hits--Chapter One
+--------------
+--------------
+Remember to enter a song, or you will only get to listen to Ace of Base... FOREVER!
+Artist: Ace of Base
+Song Name: The Sign
+Listen to the song: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+Album Title: The Sign (US Album) [Remastered]
+--------------
+--------------
+It seems you have forgotten to enter a movie title. Perhaps you should check out 'Mr. Nobody.' It's currently on Netflix.
+--------------
+Movie Title: Mr. Nobody
+Release Year: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes: 67%
+Production Country: Belgium, Germany, Canada, France, USA, UK
+Language(s): English, Mohawk
+Plot Summary: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Leading Cast: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+--------------

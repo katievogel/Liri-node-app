@@ -38,7 +38,8 @@ Below are instructions on how to use the app. To avoid errors, make sure that yo
 
 ### Media
 
-Below are images / video / gif links of the app in action
+Below is a video link of the app in action.
+* Video: https://drive.google.com/file/d/1uIwaeRSrp54Ij_QkO4yBg--ofE3zZkdU/view
 
 ### Deployed Link
 

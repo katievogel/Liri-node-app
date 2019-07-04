@@ -43,7 +43,7 @@ Below are images / video / gif links of the app in action
 ###Deployed Link
 
 This app is not associated with an html page. In order to use the app, you need to copy the repository to you computer.
-* Repository Link: 
+* Repository Link: https://github.com/katievogel/Liri-node-app
 
 ###Technologies Used
 * Javascript
